@@ -18,7 +18,7 @@ function CategoriesScreen({ navigation }) {
     );
   }
   return (
-    <View style={StyleSheet.container}>
+    <View>
       <FlatList
         data={CATEGORIES}
         keyExtractor={(item) => item.id}
