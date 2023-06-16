@@ -1,12 +1,5 @@
 import { useLayoutEffect } from "react";
-import {
-  Button,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
+import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 import { MEALS } from "../data/dummy-data";
 import MealDetails from "../components/MealDetails";
 import SubTitle from "../components/MealDetail/Subtitle";
@@ -20,7 +13,7 @@ function MealDetailScreen({ route, navigation }) {
   function headerButtonPressHandler() {}
   useLayoutEffect(() => {
     navigation.setOptions({
-      headeRight: () => {
+      headerRight: () => {
         return (
           <IconButton
             icon="star"
