@@ -21,6 +21,7 @@ function MealDetails({
 }
 
 export default MealDetails;
+
 const styles = StyleSheet.create({
   details: {
     flexDirection: "row",
